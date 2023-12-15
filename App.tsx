@@ -1,11 +1,13 @@
-import { Text, View } from 'react-native';
-import Home from '~/screens/home';
+import { NavigationContainer } from '@react-navigation/native';
+import React from 'react';
+import HomeNavigator from '~/navigators/home-navigator';
 
-export default function App() {
+const App = () => {
   return (
-    <View className='flex flex-1 items-center justify-center'>
-      <Text className='text-2xl'>Hello World </Text>
-      <Home />
-    </View>
+    <NavigationContainer>
+      <HomeNavigator />
+    </NavigationContainer>
   );
-}
+};
+
+export default App;

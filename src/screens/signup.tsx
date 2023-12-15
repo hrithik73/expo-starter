@@ -1,10 +1,10 @@
 import { Text, View } from 'react-native';
 
-const Home = () => {
+const SignUp = () => {
   return (
     <View className='flex-1 justify-center items-center'>
-      <Text>Hello</Text>
+      <Text>SignUp</Text>
     </View>
   );
 };
-export default Home;
+export default SignUp;
