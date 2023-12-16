@@ -10,7 +10,12 @@ npx create-react-native-app --template https://github.com/hrithik73/expo-starter
 
 ### Features and Libaries
 
-- React Navigation
-- Nativewind for styling
-- Redux Toolkit
-- Absolute Import
+- [x] React Navigation
+- [x] Nativewind
+- [x] Absolute Import
+- [ ] Dark Mode
+- [ ] Redux Toolkit or Redux Toolkit Query
+  - [ ] Redux Persist
+- [ ] UI library (choose and Setup)
+- [ ] Native Code Generation
+- [ ] React Query
