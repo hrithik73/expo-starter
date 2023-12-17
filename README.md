@@ -8,6 +8,8 @@ A react native expo template configured with commonly used libarary to start you
 npx create-react-native-app --template https://github.com/hrithik73/expo-starter
 ```
 
+Be sure to change the name of your app in `app.json` file
+
 ### Features and Libaries
 
 - [x] React Navigation
